@@ -29,12 +29,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         vidView.start();
-       // if (msgBLE) {
-            //if (vidView.isPlaying())
-                //vidView.pause();
-           // else
-               // vidView.resume();
-        //}
+       /*if (msgBLE) {
+            if (vidView.isPlaying())
+                vidView.pause();
+            else
+                vidView.resume();
+        }*/
 
     }
 
